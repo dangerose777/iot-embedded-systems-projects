@@ -13,7 +13,7 @@ A collection of my projects grouped into 3 sections: Basic, Intermediate and Adv
 <details>
   <summary>👾 Basic</summary>
   <ul>
-    <li><a href="x">Memory game (repeat after me)</a></li>
+    <li><a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/memory-game">Memory game (repeat after me)</a></li>
   </ul>
 </details>
 
