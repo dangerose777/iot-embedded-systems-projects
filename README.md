@@ -36,6 +36,3 @@ git clone https://github.com/dangerose777/iot-embedded-systems-projects.git
 ```
 cd iot-embedded-systems-projects
 ```
-```
-npm i
-```
