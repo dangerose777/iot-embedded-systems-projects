@@ -3,7 +3,6 @@
   <p>Many small projects related to IoT & Embedded Systems</p>
   <img src="https://img.shields.io/badge/espressif-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/PlatformIO-F5822A.svg?style=for-the-badge&logo=PlatformIO&logoColor=white"/>
 </div>
 
@@ -14,7 +13,7 @@ A collection of my projects grouped into 3 sections: Basic, Intermediate and Adv
 <details>
   <summary>👾 Basic</summary>
   <ul>
-    <li><a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a></li>
+    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a></li>
     <li><a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/tattoo-power-supply-prototype">Tattoo power supply (prototype with button and led)</a></li>
   </ul>
 </details>
@@ -28,3 +27,15 @@ A collection of my projects grouped into 3 sections: Basic, Intermediate and Adv
   <summary>👺 Advanced</summary>
   <p>-</p>
 </details>
+
+## 🛠️ Installation of All Projects
+
+```
+git clone https://github.com/dangerose777/iot-embedded-systems-projects.git
+```
+```
+cd iot-embedded-systems-projects
+```
+```
+npm i
+```
