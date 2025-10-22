@@ -49,7 +49,7 @@ void loop() {
   
   if (millis() - lastPrint >= 500) {
     Serial.print("Button State: ");
-    Serial.print(buttonState ? "ON" : "OFF");
+    Serial.print(buttonState ? "Pressed" : "Released");
     Serial.print(" | Output Voltage: ");
     Serial.print(outputV, 2);
     Serial.print("V");

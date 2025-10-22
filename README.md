@@ -20,7 +20,9 @@ A collection of my projects grouped into 3 sections: Basic, Intermediate and Adv
 
 <details>
   <summary>💪 Intermediate</summary>
-  <p>-</p>
+  <ul>
+    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/intermediate/analog-joystick-with-turtle">Moving in Turtle Python using Analog Joystick</a></li>
+  </ul>
 </details>
 
 <details>
