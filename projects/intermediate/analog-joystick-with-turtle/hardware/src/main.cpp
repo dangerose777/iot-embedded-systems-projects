@@ -8,7 +8,7 @@ const int swPin = 2;
 // SETUP
 void setup() {
   Serial.begin(9600);
-  Serial.println("Hello, World!");
+  Serial.println("Joystick Serial Monitor");
 
   pinMode(swPin, INPUT_PULLUP);
 }
@@ -17,18 +17,14 @@ void setup() {
 void loop() {
   int x = analogRead(vrXPin);
   int y = analogRead(vrYPin);
-  bool buttonPressed = (digitalRead(swPin) == LOW);
+  bool btnPressed = (digitalRead(swPin) == LOW);
 
   // CONSOLE OUTPUT
 
-  Serial.print("X: ");
   Serial.print(x);
-  Serial.print("| Y: ");
+  Serial.print(",");
   Serial.print(y);
-  Serial.print("| Button: ");
-  Serial.println(buttonPressed ? "Pressed" : "Released");
-  delay(500);
+  Serial.print(",");
+  Serial.println(btnPressed ? 1 : 0);
+  delay(100);
 }
-
-// connection with turtle program in python
-// script | moving the joystick will move the turtle
