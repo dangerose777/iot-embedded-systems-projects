@@ -7,10 +7,7 @@
   <img src="https://img.shields.io/badge/PlatformIO-F5822A.svg?style=for-the-badge&logo=PlatformIO&logoColor=white"/>
 </div>
 
-> [!WARNING]
-> The project is still unfinished.
-
-## ℹ️ About The Project
+## 📜 About The Project
 <p>x</p>
 
 ## ✨ Features

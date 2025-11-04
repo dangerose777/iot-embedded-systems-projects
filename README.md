@@ -6,12 +6,12 @@
   <img src="https://img.shields.io/badge/PlatformIO-F5822A.svg?style=for-the-badge&logo=PlatformIO&logoColor=white"/>
 </div>
 
-## ℹ️ About The Project
-A collection of my projects grouped into 3 sections: Basic, Intermediate and Advanced.
+## 📜 About the Repository
+A collection of my small projects grouped into 3 sections: Basic, Intermediate and Advanced.
 
 ## 📋 List of Projects
 <details>
-  <summary>👾 Basic</summary>
+  <summary>☕ Basic</summary>
   <ul>
     <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a></li>
     <li><a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/tattoo-power-supply-prototype">Tattoo power supply (prototype with button and led)</a></li>
@@ -19,18 +19,18 @@ A collection of my projects grouped into 3 sections: Basic, Intermediate and Adv
 </details>
 
 <details>
-  <summary>💪 Intermediate</summary>
+  <summary>🎯 Intermediate</summary>
   <ul>
     <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/intermediate/analog-joystick-with-turtle">Moving in Turtle Python using Analog Joystick</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>👺 Advanced</summary>
+  <summary>🔥 Advanced</summary>
   <p>-</p>
 </details>
 
-## 🛠️ Installation of All Projects
+## 🛠️ Installation of all projects
 
 ```
 git clone https://github.com/dangerose777/iot-embedded-systems-projects.git
