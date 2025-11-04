@@ -15,14 +15,12 @@ The combination of hardware and software allows you to control the turtle in rea
 
 ## 📸 Screenshots / GIFs / Photos
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <img src="screenshots/img_cam.jpg" style="width: 47%; max-width: 400px; border-radius: 8px;" />
-  <img src="screenshots/console.png" style="width: 47%; max-width: 400px; border-radius: 8px;" />
-  <img src="screenshots/cam.gif" style="width: 47%; max-width: 400px; border-radius: 8px;" />
-  <img src="screenshots/turtle.gif" style="width: 47%; max-width: 400px; border-radius: 8px;" />
+  <img src="screenshots/cam.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
+  <img src="screenshots/turtle.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
 </div>
 
 ## 🔧 Connection Configuration
-<img src="screenshots/connection.png" style="width: 47%; max-width: 400px; border-radius: 8px;" />
+<img src="screenshots/img_cam.jpg" style="width: 400px; max-width: 400px; border-radius: 8px;" />
 <h3>Joystick -> Arduino Uno</h3>
 <ul>
   <li>GND -> GND</li>
