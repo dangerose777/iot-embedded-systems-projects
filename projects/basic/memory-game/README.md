@@ -28,10 +28,18 @@
 ## 🛠️ Installation
 <p>x</p>
 
-## 👍 Run
-
+## ✅ Run
 Use PlatformIO Serial Monitor
+
+## 💡 How to use
+<p>x</p>
+
 
 ## 📝 TODO
 - [ ] add global variable for number of LEDs
-- [ ] update readme
+- [ ] update photos
+- [ ] update breadboard configuration
+- [ ] update installation
+- [ ] update how to use
+- [ ] add LCD
+- [ ] add LED

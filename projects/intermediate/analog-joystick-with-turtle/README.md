@@ -33,10 +33,14 @@ The combination of hardware and software allows you to control the turtle in rea
 ## 🛠️ Installation
 <p>x</p>
 
-## 👍 Run
+## ✅ Run
 ```
 Run software/main.py
 ```
 
+## 💡 How to use
+<p>x</p>
+
 ## 📝 TODO
-- [ ] update installation process
+- [ ] update installation
+- [ ] update how to use
