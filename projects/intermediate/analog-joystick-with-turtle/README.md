@@ -9,6 +9,7 @@
 
 ## 📜 About The Project
 The combination of hardware and software allows you to control the turtle in real time using an analog joystick.
+Created on <b>Arduino Uno</b>.
 
 ## ✨ Features
 - 🐢 Real-time drawing in turtle.
@@ -19,28 +20,34 @@ The combination of hardware and software allows you to control the turtle in rea
   <img src="screenshots/turtle.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
 </div>
 
-## 🔧 Connection Configuration
-<img src="screenshots/img_cam.jpg" style="width: 400px; max-width: 400px; border-radius: 8px;" />
-<h3>Joystick -> Arduino Uno</h3>
-<ul>
-  <li>GND -> GND</li>
-  <li>+5V -> 5V</li>
-  <li>VRX -> A0</li>
-  <li>VRY -> A1</li>
-  <li>SW -> 2</li>
-</ul>
+## 🔧 Configuration
+<table>
+  <tr>
+    <td style="padding-right: 30px;">
+      <img src="screenshots/img_cam.jpg" width="400" style="border-radius: 8px;" />
+    </td>
+    <td>
+      <h3>Joystick → Arduino Uno</h3>
+      <ul>
+        <li>GND → GND</li>
+        <li>+5V → 5V</li>
+        <li>VRX → A0</li>
+        <li>VRY → A1</li>
+        <li>SW → 2</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Installation
 <p>x</p>
 
 ## ✅ Run
-```
-Run software/main.py
-```
+Run <b>software/main.py</b>
 
 ## 💡 How to use
-<p>x</p>
+Move turtle using joystick. </br>
+Click joystick for reset turtle.
 
 ## 📝 TODO
 - [ ] update installation
-- [ ] update how to use
