@@ -21,15 +21,15 @@ Created on <b><i>Fake</i> Arduino Uno</b>.
 
 ## 📸 Images
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <img src="screenshots/cam.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
-  <img src="screenshots/turtle.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
+  <img src="images/cam.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
+  <img src="images/turtle.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
 </div>
 
 ## 🔧 Configuration
 <table>
   <tr>
     <td style="padding-right: 30px;">
-      <img src="screenshots/img_cam.jpg" width="400" style="border-radius: 8px;" />
+      <img src="images/img_cam.jpg" width="400" style="border-radius: 8px;" />
     </td>
     <td>
       <h3>Arduino Uno → Joystick</h3>
