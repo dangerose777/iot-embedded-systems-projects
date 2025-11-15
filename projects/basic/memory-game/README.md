@@ -8,11 +8,18 @@
 
 ## 📜 About The Project
 A simple game for remembering sequences on <b>ESP32-DevKitC</b>. </br>
+<h3>List of products:</h3>
+<ul>
+  <li>ESP32 DevKit C</li>
+  <li>4x Diode LED'S | Red, Yellow, Green, Blue</li>
+  <li>4x Buttons (tact switch)</li>
+  <li>4x Resistor 220Ω</li>
+</ul>
 
 ## ✨ Features
 - 📈 Scalable code for more LEDs.
 
-## 📸 Screenshots / GIFs / Photos
+## 📸 Images
 <p>x</p>
 <!-- <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;"> -->
   <!-- <img src="screenshots/none.png" style="width: 47%; max-width: 400px; border-radius: 8px;" /> -->
@@ -22,7 +29,31 @@ A simple game for remembering sequences on <b>ESP32-DevKitC</b>. </br>
 <!-- </div> -->
 
 ## 🔧 Breadboard Configuration
-<p>x</p>
+<table>
+  <tr>
+    <td style="padding-right: 30px;">
+      <img src="images/breadboard.jpg" width="400" style="border-radius: 8px;" />
+    </td>
+    <td>
+      <h3>ESP32 → Diode Led's</h3>
+      <ul>
+        <li>4 → Red</li>
+        <li>16 → Yellow</li>
+        <li>17 → Green</li>
+        <li>23 → Blue</li>
+      </ul>
+      <h3>ESP32 → Buttons</h3>
+      <ul>
+        <li>14 → Red</li>
+        <li>27 → Yellow</li>
+        <li>26 → Green</li>
+        <li>25 → Blue</li>
+      </ul>
+      <p>All buttons and leds are connected to GND</p>
+      <p>LED resistor 220Ω</p>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Installation
 <p>x</p>
@@ -39,7 +70,6 @@ After winning, click any button to play again.  </br>
 ## 📝 TODO
 - [ ] add global variable for number of LEDs
 - [ ] update photos
-- [ ] update breadboard configuration
 - [ ] update installation
 - [ ] add LCD
 - [ ] add LED

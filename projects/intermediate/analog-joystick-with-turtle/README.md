@@ -9,12 +9,17 @@
 
 ## 📜 About The Project
 The combination of hardware and software allows you to control the turtle in real time using an analog joystick.
-Created on <b>Arduino Uno</b>.
+Created on <b><i>Fake</i> Arduino Uno</b>.
+<h3>List of products:</h3>
+<ul>
+ <li><i>Fake</i> Arduino Uno</li>
+ <li>Analog Joystick</li>
+</ul>
 
 ## ✨ Features
 - 🐢 Real-time drawing in turtle.
 
-## 📸 Screenshots / GIFs / Photos
+## 📸 Images
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img src="screenshots/cam.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
   <img src="screenshots/turtle.gif" style="width: 400px; max-width: 400px; border-radius: 8px;" />
@@ -27,13 +32,13 @@ Created on <b>Arduino Uno</b>.
       <img src="screenshots/img_cam.jpg" width="400" style="border-radius: 8px;" />
     </td>
     <td>
-      <h3>Joystick → Arduino Uno</h3>
+      <h3>Arduino Uno → Joystick</h3>
       <ul>
         <li>GND → GND</li>
-        <li>+5V → 5V</li>
-        <li>VRX → A0</li>
-        <li>VRY → A1</li>
-        <li>SW → 2</li>
+        <li>5V → +5V</li>
+        <li>A0 → VRX</li>
+        <li>A1 → VRY</li>
+        <li>2 → SW</li>
       </ul>
     </td>
   </tr>
@@ -51,3 +56,4 @@ Click joystick for reset turtle.
 
 ## 📝 TODO
 - [ ] update installation
+- [ ] connect gifs in 1
