@@ -14,7 +14,6 @@ A collection of my small projects grouped into 3 sections: Basic, Intermediate a
   <summary>☕ Basic</summary>
   <ul>
     <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a></li>
-    <li><a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/tattoo-power-supply-prototype">Tattoo power supply (prototype with button and led)</a></li>
   </ul>
 </details>
 
