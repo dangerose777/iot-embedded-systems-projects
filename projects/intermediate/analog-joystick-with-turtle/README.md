@@ -9,10 +9,10 @@
 
 ## 📜 About The Project
 The combination of hardware and software allows you to control the turtle in real time using an analog joystick.
-Created on <b><i>Fake</i> Arduino Uno</b>.
+Created on <b>Arduino Uno</b>.
 <h3>List of products:</h3>
 <ul>
- <li><i>Fake</i> Arduino Uno</li>
+ <li>Arduino Uno</li>
  <li>Analog Joystick</li>
 </ul>
 

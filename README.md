@@ -1,6 +1,6 @@
 <div id="start" align="center">
   <h1>IoT / Embedded Systems Projects</h1>
-  <p>Many small projects related to IoT & Embedded Systems</p>
+  <p>Small projects related to IoT & Embedded Systems</p>
   <img src="https://img.shields.io/badge/espressif-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
   <img src="https://img.shields.io/badge/PlatformIO-F5822A.svg?style=for-the-badge&logo=PlatformIO&logoColor=white"/>
@@ -13,14 +13,14 @@ A collection of my small projects grouped into 3 sections: Basic, Intermediate a
 <details>
   <summary>☕ Basic</summary>
   <ul>
-    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a></li>
+    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/basic/memory-game">Memory game (repeat after me)</a> | ESP32</li>
   </ul>
 </details>
 
 <details>
   <summary>🎯 Intermediate</summary>
   <ul>
-    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/intermediate/analog-joystick-with-turtle">Moving in Turtle Python using Analog Joystick</a></li>
+    <li>⭐ <a href="https://github.com/dangerose777/iot-embedded-systems-projects/tree/main/projects/intermediate/analog-joystick-with-turtle">Moving in Turtle Python using Analog Joystick</a> | Arduino Uno</li>
   </ul>
 </details>
 
