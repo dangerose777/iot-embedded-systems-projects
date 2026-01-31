@@ -1,68 +1,65 @@
 #include <Arduino.h>
 
 // PIN DEFINITIONS
-const int ledPinBlue = 4;
-const int ledPinRed = 18;
-const int ledPinGreen = 21;
+// const int ledPinBlue = 4;
+// const int ledPinRed = 18;
+// const int ledPinGreen = 21;
 
-const int buttonPin = 27;
-int buttonState = 0;
+// const int buttonPin = 27;
+// int buttonState = 0;
 
 // TASKS
-void toggleLED(void *parameter)
-{
-  while(1) {
-    digitalWrite(ledPinBlue, HIGH);
-    digitalWrite(ledPinRed, LOW);
-    vTaskDelay(1000 / portTICK_PERIOD_MS);
-    digitalWrite(ledPinBlue, LOW);
-    digitalWrite(ledPinRed, HIGH);
-    vTaskDelay(1000 / portTICK_PERIOD_MS);
+void testTask(void *parameter) {
+  while(1)
+  {
+    Serial.print("High water mark: ");
+    Serial.println(uxTaskGetStackHighWaterMark(NULL));
+
+    Serial.println("Heap before malloc (bytes): ");
+    Serial.println(xPortGetFreeHeapSize());
+
+    int *ptr = (int*)pvPortMalloc(1024 * sizeof(int));
+
+    if (ptr == NULL) {
+      Serial.println("Not enough heap");
+    }
+    else {
+      //testing
+      for(int i = 0; i < 1024; i++) {
+        ptr[i] = 3;
+      }
+    }
+
+    Serial.println("Heap before malloc (bytes): ");
+    Serial.println(xPortGetFreeHeapSize());
+
+    //free up allocated memory
+    vPortFree(ptr);
+
+    vTaskDelay(100 / portTICK_PERIOD_MS);
   }
 }
 
-void buttonLED(void *parameter)
-{
-  while(1) {
-    buttonState = digitalRead(buttonPin);
-    if(buttonState == LOW) {
-      digitalWrite(ledPinGreen, HIGH);
-    } else {
-      digitalWrite(ledPinGreen, LOW);
-    }
-  }
-}
 
 // SETUP
 void setup() {
   // config
   Serial.begin(115200);
   Serial.println("FreeRTOS Tests");
-  pinMode(ledPinBlue, OUTPUT);
-  pinMode(ledPinRed, OUTPUT);
-  pinMode(ledPinGreen, OUTPUT);
-  pinMode(buttonPin, INPUT_PULLUP);
+  // pinMode(ledPinBlue, OUTPUT);
+  // pinMode(ledPinRed, OUTPUT);
+  // pinMode(ledPinGreen, OUTPUT);
+  // pinMode(buttonPin, INPUT_PULLUP);
 
   // task 1
   xTaskCreatePinnedToCore(
-    toggleLED,       // task function
-    "Toggle LED",    // name of task
-    1024,            // stack size
+    testTask,       // task function
+    "Test Task",    // name of task
+    1500,            // stack size
     NULL,            // parameter to pass to function
     1,               // task priority
     NULL,            // task handle
     1                // core
-  );
-
-  //task 2
-  xTaskCreatePinnedToCore(
-    buttonLED,
-    "Button LED",
-    1024,
-    NULL,
-    1,
-    NULL,
-    1
   );
 }
 
